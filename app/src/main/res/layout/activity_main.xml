@@ -20,14 +20,18 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="0dp" android:layout_weight="1">
+
             <Button
+
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh1v1"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="SoundButtonOnClick"/>
+
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -35,7 +39,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh1v2"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -43,7 +47,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh1v3"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -51,7 +55,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh1v4"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
         </LinearLayout>
 
         <LinearLayout
@@ -65,7 +69,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh2v1"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -73,7 +77,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh2v2"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -81,7 +85,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh2v3"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -89,7 +93,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh2v4"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
         </LinearLayout>
 
         <LinearLayout
@@ -103,7 +107,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh3v1"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -111,7 +115,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh3v2"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -119,7 +123,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh3v3"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="?android:attr/buttonBarButtonStyle" android:onClick="SoundButtonOnClick"/>
             <Button
                     android:text="@string/button_filler_name"
                     android:layout_width="0dp"
@@ -127,7 +131,7 @@
                     android:layout_height="match_parent"
                     android:id="@+id/buttonh3v4"
                     tools:layout_editor_absoluteY="55dp"
-                    tools:layout_editor_absoluteX="207dp" style="@style/aacButtonStyle"/>
+                    tools:layout_editor_absoluteX="207dp" style="@style/aacButtonStyle" android:onClick="SoundButtonOnClick"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
