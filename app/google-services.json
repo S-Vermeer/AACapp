@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "734864349163",
+    "firebase_url": "https://aacfontys.firebaseio.com",
+    "project_id": "aacfontys",
+    "storage_bucket": "aacfontys.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734864349163:android:25b216d4ea26a06a902bae",
+        "android_client_info": {
+          "package_name": "com.example.aacvoca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734864349163-53ob0nd0ho9p9dgc952k0opavcotbh1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAS4IowebPxNqyC_KAkocfRQqAAiJ2EalY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734864349163-53ob0nd0ho9p9dgc952k0opavcotbh1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
